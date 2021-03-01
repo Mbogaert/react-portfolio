@@ -18,10 +18,6 @@ main {
 
 }
 
-.nav-link {
-  color: var(--light);
-}
-
 /* {
   box-sizing: border-box;
 }
@@ -42,6 +38,10 @@ body {
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
+}
+
+ul {
+  list-style-type: none;
 }
 
 h1,
@@ -174,12 +174,12 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
-
+*/
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
-
+/*
 .space-between {
   justify-content: space-between;
 }
@@ -192,12 +192,12 @@ textarea {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
-
+*/
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
-
+/*
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
@@ -294,6 +294,10 @@ a {
 }
 */
 
-.navActive {
+.nav-link {
+  color: var(--light);
+}
+
+.navActive, .nav-link:hover {
   color: var(--secondary);
 } 
