@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.bbd5d974.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.dcfc70d0.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dcfc70d0.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.614cc4fe.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.614cc4fe.js.map",
+    "static/js/2.e6e8751f.chunk.js": "/react-portfolio/static/js/2.e6e8751f.chunk.js",
+    "static/js/2.e6e8751f.chunk.js.map": "/react-portfolio/static/js/2.e6e8751f.chunk.js.map",
+    "static/js/3.f6691a2a.chunk.js": "/react-portfolio/static/js/3.f6691a2a.chunk.js",
+    "static/js/3.f6691a2a.chunk.js.map": "/react-portfolio/static/js/3.f6691a2a.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.bbd5d974.chunk.css.map": "/react-portfolio/static/css/main.bbd5d974.chunk.css.map",
+    "static/js/2.e6e8751f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e6e8751f.chunk.js.LICENSE.txt",
+    "static/media/bogaert-mathew.9d33cb60.jpg": "/react-portfolio/static/media/bogaert-mathew.9d33cb60.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/tech-blog.5b68a196.png",
+    "static/media/etsy-icon.e6bbb6ea.png": "/react-portfolio/static/media/etsy-icon.e6bbb6ea.png",
+    "static/media/github-icon.566037c6.png": "/react-portfolio/static/media/github-icon.566037c6.png",
+    "static/media/resume.b9c984f6.pdf": "/react-portfolio/static/media/resume.b9c984f6.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.614cc4fe.js",
+    "static/js/2.e6e8751f.chunk.js",
+    "static/css/main.bbd5d974.chunk.css",
+    "static/js/main.dcfc70d0.chunk.js"
+  ]
+}
