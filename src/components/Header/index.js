@@ -5,7 +5,7 @@ function Header(props) {
 
     return (
         <header className="flex-row">
-            <h1>Mathew Bogaert</h1>
+            <h1 className="mx-2">Mathew Bogaert</h1>
             <nav>
                 <ul className="flex-row">
                     <li className={currentPage === "About" ? "nav-link navActive" : "nav-link mx-2"}>
