@@ -14,11 +14,11 @@ function Header(props) {
                     <li class={currentPage === "Portfolio"}>
                         <span onClick={() => handlePageChange("Portfolio")}>Portfolio</span>
                     </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
+                    <li class={currentPage === "Contact"}>
+                        <span onClick={() => handlePageChange("Contact")}>Contact Me</span>
                     </li>
-                    <li>
-                        <a href="#resume">Resume</a>
+                    <li class={currentPage === "Resume"}>
+                        <span onClick={() => handlePageChange("Resume")}>Resume</span>
                     </li>
                 </ul>
             </nav>
