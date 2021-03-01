@@ -1,26 +1,22 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
+    const { currentPage, handlePageChange } = props;
+
     return (
         <header>
             <h1>Mathew Bogaert</h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#about">About Me</a>
+                    <li class={currentPage === "About"}>
+                        <span onClick={() => handlePageChange("About")}>About Me</span>
                     </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
+                    <li class={currentPage === "Portfolio"}>
+                        <span onClick={() => handlePageChange("Portfolio")}>Portfolio</span>
                     </li>
-                </ul>
-                <ul>
                     <li>
                         <a href="#contact">Contact Me</a>
                     </li>
-                </ul>
-                <ul>
                     <li>
                         <a href="#resume">Resume</a>
                     </li>
