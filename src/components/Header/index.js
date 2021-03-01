@@ -7,22 +7,22 @@ function Header() {
             <nav>
                 <ul>
                     <li>
-                        <div>About Me</div>
+                        <a href="#about">About Me</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <div>Portfolio</div>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <div>Contact</div>
+                        <a href="#contact">Contact Me</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <div>Resume</div>
+                        <a href="#resume">Resume</a>
                     </li>
                 </ul>
             </nav>
