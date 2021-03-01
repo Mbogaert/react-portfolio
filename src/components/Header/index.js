@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <header className="flex-row px-1">
+        <header>
             <h1>Mathew Bogaert</h1>
             <nav>
                 <ul>
