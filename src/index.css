@@ -18,6 +18,10 @@ main {
 
 }
 
+.nav-link {
+  color: var(--light);
+}
+
 /* {
   box-sizing: border-box;
 }
@@ -288,7 +292,8 @@ a {
 	margin-right: -2px;
 	
 }
+*/
 
 .navActive {
   color: var(--secondary);
-} */
+} 
