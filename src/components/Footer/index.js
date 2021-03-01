@@ -7,9 +7,9 @@ function Footer() {
     return (
         <footer >
             <ul >
-            <a href="https://github.com/Mbogaert"><img src={gitHub} style={{ width: "10% "}} alt=""/></a>
-            <a href="https://www.linkedin.com/in/mathewbogaert/"><img src={linkedIn} style={{ width: "10% "}} alt=""/></a>
-            <a href="https://www.etsy.com/shop/pokements/"><img src={etsy} style={{ width: "10% "}} alt=""/></a>
+            <a className="mx-2" href="https://github.com/Mbogaert"><img src={gitHub} style={{ width: "10% "}} alt=""/></a>
+            <a className="mx-2" href="https://www.linkedin.com/in/mathewbogaert/"><img src={linkedIn} style={{ width: "10% "}} alt=""/></a>
+            <a className="mx-2" href="https://www.etsy.com/shop/pokements/"><img src={etsy} style={{ width: "10% "}} alt=""/></a>
             </ul>
         </footer>
     )
