@@ -3,13 +3,12 @@ import resume from "../../assets/developer/resume.pdf";
 
 function Resume() {
   return (
-    <section>
+    <section >
       <h1>
-        <a class="text" href={resume} download="Resume">
-          Download Resume
-        </a>
+      Developer Proficiencies & Resume
       </h1>
-      <h2>Developer Proficiencies</h2>
+      <div className="works-grid-container" >
+      <div className="works-grid-item box8">
       <h3>Front-end:</h3>
       <ul>
         <li>HTML5</li>
@@ -20,6 +19,8 @@ function Resume() {
         <li>Handlebars</li>
         <li>Bulma</li>
       </ul>
+      </div>
+      <div className="works-grid-item box9">
       <h3>Back-end:</h3>
       <ul>
         <li>JavaScript</li>
@@ -36,6 +37,8 @@ function Resume() {
         <li>Regex</li>
         <li>IndexedDB</li>
       </ul>
+      </div>
+      <div className="works-grid-item box10">
       <h3>More:</h3>
       <ul>
         <li>GitHub / GitHub Pages</li>
@@ -49,6 +52,13 @@ function Resume() {
         <li>Jest</li>
         <li>Wix.com</li>
       </ul>
+      <h2 className="works-grid-item box7" >
+      <a className="resume" class="text" href={resume} download="Resume">
+          Download Resume
+        </a>
+      </h2>
+      </div>
+      </div>
     </section>
   );
 }
